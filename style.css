@@ -1,2 +1,28 @@
+/***** Global *****/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 /***** Navbar *****/
+.navbar-container{
+    border:2px solid orange;
+}
+/* Left side */
+.left-side-container{
+    border :2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
 /* Hamburger */
+.hamburger{
+    border:2px solid red;
+}
+/* Brand Icon */
+.brand-icon{
+    border:2px solid red;
+    width:50px;
+}
