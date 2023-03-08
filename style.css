@@ -10,10 +10,15 @@
 body{
     position: relative;
 }
+
 /***** Navbar *****/
-.navbar-container{
-    border:2px solid orange;
+.navbar{
+    border:1px solid orange;
+    position:fixed;
+    width:100%;
+    background-color: #fff;
 }
+
 /* Left side */
 .left-side-container{
     border :2px solid green;
@@ -28,10 +33,6 @@ body{
     border-radius: 50%;
     padding:7px;
     display: flex;
-}
-
-.hamburger{
-    /* border:2px solid red; */
 }
 
 .hamburger:hover{
@@ -55,7 +56,8 @@ body{
 }
 
 .menu-list{
-    border:3px solid green;
+    border:3px solid rgb(0, 73, 128);
+    z-index: 2;
     /* overflow-y: scroll; */
 }
 

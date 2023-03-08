@@ -8,7 +8,6 @@ const hamburger = document.querySelector(".hamburger");
 const menu_container = document.querySelector(".menu-container");
 window.addEventListener("click",function(e){
     if(e.target == hamburger){
-        console.log("true")
         menu_container.classList.add("menu-toggler");
     }else{
         menu_container.classList.remove("menu-toggler");
