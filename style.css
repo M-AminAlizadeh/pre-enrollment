@@ -139,6 +139,7 @@ body{
 
 /* Middle side */
 .middle-side-container{
+    /* border:1px solid red; */
     display: flex;
     justify-content: space-between;
 }
@@ -163,7 +164,8 @@ body{
 
 .search-icon-container{
     border-left:1px solid #c0c0c0;
-    padding:0px 10px;
+    /* border:1px solid red; */
+    padding:0px 15px;
     position:absolute;
     right:10px;
     top:0;
