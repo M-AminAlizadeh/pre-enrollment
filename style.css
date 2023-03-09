@@ -17,11 +17,14 @@ body{
     position:fixed;
     width:100%;
     background-color: #fff;
+    padding:10px;
+    display: flex;
+    /* justify-content: ; */
 }
 
 /* Left side */
 .left-side-container{
-    border :2px solid green;
+    /* border :2px solid green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +44,7 @@ body{
 
 /* Menu */
 .menu-container{
-    border:1px solid orange;
+    /* border:1px solid orange; */
     position: absolute;
     width:200px;
     top:0;
@@ -56,7 +59,7 @@ body{
 }
 
 .menu-list{
-    border:3px solid rgb(0, 73, 128);
+    border:1px solid rgb(189, 189, 189);
     z-index: 2;
     /* overflow-y: scroll; */
 }
@@ -132,4 +135,56 @@ body{
     font-weight: bold;
     font-family:"Roboto";
     font-size:10px;
+}
+
+/* Middle side */
+.middle-side-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box-container{
+    border:1px solid #c0c0c0;
+    display: flex;
+    border-radius: 20px;
+    position: relative;
+    width:500px;
+}
+
+.search-input{
+    border-radius: 50px;
+    border:1px solid #c0c0c0;
+    font-size: 18px;
+    padding-left:10px;
+    border:none;
+    outline: none;
+    width:100%;
+}
+
+.search-icon-container{
+    border-left:1px solid #c0c0c0;
+    padding:0px 10px;
+    position:absolute;
+    right:10px;
+    top:0;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.voice-container{
+    /* border:1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.voice-container:hover{
+    background-color: #ececec;
 }
